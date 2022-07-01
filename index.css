@@ -36,8 +36,55 @@ display:none;
 
 
 
-/*header style start*/
-/*header style end*/
+/*hero style start*/
+
+.hero-info h1{
+  font-weight: lighter;
+  font-size: 3.5rem;
+  color: rgb(50,50,50);
+  margin:3rem 0;
+  
+}
+
+.vegana{
+  color:#2a9d8f
+
+}
+
+.hero-buttons {
+  display:flex;
+  justify-content: space-around;
+
+}
+
+.hero-buttons:first-child {
+  background-color: #f80b0b;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  box-shadow: 5px 5px 15#e76f51ec;
+  border-radius: 5px;
+  border: none;
+  margin-right: 15%;
+
+}
+
+.hero-buttons:last-child{
+  border:none;
+  background-color: white;
+  font-size: 1rem;
+
+}
+
+.hero-info{
+  margin:3rem 0;
+
+}
+
+
+
+
+
+/*hero style end*/
 /*header style start*/
 /*header style end*/
 @media screen and (min-width:725px){
@@ -64,5 +111,25 @@ display:none;
     #burger-menu {
     display:none;
     }
-  
+
+    .hero{
+      display:flex;
+      padding: 1rem;
+
+    }
+  .hero-infor{
+    padding:1rem;
+
+  }
+
+  .hero-image{
+    width: 375px;
+  }
+
+  .hero-info-block{
+    display: block;
+  }
+
+ 
+
 }
